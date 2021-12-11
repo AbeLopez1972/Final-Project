@@ -24,3 +24,6 @@ h5{
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
+#address{
+    line-height: 80%;
+}
