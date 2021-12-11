@@ -1,0 +1,26 @@
+#logo{
+    width: 90px;
+    height: 90px;
+    margin: auto;    
+    display: block;
+}
+
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+}
+#hero{
+    position: absolute;
+    z-index: -1;
+}
+#jumbotron{
+    margin-bottom: 450px;
+    font-family: 'Playfair Display', serif;
+}
+#cards{
+    font-family: 'Playfair Display', serif;
+}
+h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
