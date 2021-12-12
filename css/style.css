@@ -1,6 +1,6 @@
 #logo{
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin: auto;    
     display: block;
 }
@@ -10,11 +10,13 @@ h1{
     font-size: 100px;
 }
 #hero{
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 #jumbotron{
-    margin-bottom: 450px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
     font-family: 'Playfair Display', serif;
 }
 #cards{
