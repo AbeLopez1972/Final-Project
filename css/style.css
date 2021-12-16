@@ -1,11 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #logo{
     width: 100px;
     height: 100px;
     margin: auto;    
     display: block;
 }
+@media screen and (max-width: 600px) {
+    #title {
+      display: none;
+    }
+  }
 
-h1{
+#title{
     font-family: 'Tangerine', cursive;
     font-size: 100px;
 }
@@ -13,11 +22,20 @@ h1{
     position: relative;
     z-index: -1;
 }
+@media screen and (max-width: 600px) {
+    #jumbotron {
+      display: none;
+    }
+  }
 #jumbotron{
     position: absolute;
     top: 20px;
     left: 20px;
     font-family: 'Playfair Display', serif;
+}
+#modelnames{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
 }
 #cards{
     font-family: 'Playfair Display', serif;

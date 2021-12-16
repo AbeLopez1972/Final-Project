@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d92e28eaa4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Maharba Homes</title>
   </head>
   <body>
@@ -25,69 +25,68 @@
           <img src="img/monogram.png" alt="logo">
         </div>
         <div class="col-6 text-center">
-          <h1>Maharba Homes</h1>
+          <h1 id="title">Maharba Homes</h1>
         </div>
         <div class="d-flex col-3 justify-content-center p-2">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#">Speakers</a>
-              <a class="nav-link" href="#">Tickets</a>
-              <a class="nav-link" href="#">Venue</a>
+            <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#models">Models</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
             </div>
         </div>
-      </div>
-      
     </nav>
     <section id="hero" class="container-fluid mb-3">
       <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="House with garden">
     
-     <div id="jumbotron" class="col-md-4">
-       <div class="h-100 p-5 text-white bg-dark bg-opacity-75 rounded-3 m-5">
-         <h2>Change the background</h2>
-         <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,  mix and match with additional component themes and more.</p>
-         <button class="btn btn-outline-light" type="button">Example button</button>
+     <div id="jumbotron" class="container-fluid col-md-4">
+       <div class="p-5 text-white bg-dark bg-opacity-75 rounded-3 m-5">
+         <h2>Welcome</h2>
+         <p>We hope you enjoy the look. We've updated our website a bit and hope you enjoy it. Like always, we are committed to bringing you the highest quality home.</p>
+         <a class="btn btn-outline-light" href="https://abelopez1972.github.io/Bootcamp-1/" role="button">Old Website</a>
        </div>
      </div>
    </section>
     <section class="container-fluid h-25 text-center text-dark">
-      <h1>2021 Models</h1>
+      <h1 id="modelnames"><a id="models">2021 Models</a></h1>
     </section>
     <section id="cards" class="container-fluid">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card bg-light">
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="...">
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-thumbnail" alt="house">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">The Bella</h5>
+              <p class="card-text">This fully custom, elegant modern ranch-style home is located within walking distance of Ute Valley Park in Mountain Shadows. Designer choices in this stunning home set it apart from every other house in the neighborhood. </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card bg-light">
-            <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="...">
+            <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-thumbnail" alt="house">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Logan's Run</h5>
+              <p class="card-text">This stunning modern home is located in Elan, which is an exclusive part of the Cordera community that was built by Keller Homes. The main level features an open floor plan complete with white oak hardwood flooring.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card bg-light">
-            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-thumbnail" alt="House">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">The Maverick</h5>
+              <p class="card-text">Stunning large contemporary home with soaring ceilings and windows, split levels, great floor plan including open dining and living room. Located in the beautiful hilly and treed, desirable Windmill Hills.</p>
             </div>
           </div>
         </div>
     </section>
-    <section class="row bg-light align-content-between">
+    <section class="d-flex justify-content-between">
       <div class="col-4 p-4">
-        <h4 class="border-bottom">Contact Us:</h4>
+        <h4 class="border-bottom"><a id="contact">Contact Us:</a></h4>
         <div id="address">
         <p>101 Main St</p>
         <p>Suite 50</p>
@@ -95,8 +94,11 @@
         <p>559.555.5555</p>
         </div>
       </div>
-      <div class="col-4 -4">
-        <p>something here</p>
+      <div class="col-4 mb-4 d-flex justify-content-around align-items-end">
+        <i class="fab fa-instagram-square fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-youtube-square fa-2x"></i>
       </div>
     </section>
 
